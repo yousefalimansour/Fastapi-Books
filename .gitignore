@@ -1,0 +1,52 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Alembic migrations cache
+alembic/__pycache__/
+alembic/versions/__pycache__/
+
+# Logs
+*.log
+
+# SQLite (لو جربت بيه بدل Postgres)
+*.sqlite3
+*.db
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# Byte-compiled / optimized / DLL files
+*.dll
+*.class
+
+# mypy
+.mypy_cache/
+
+# pytype
+.pytype/
+
+# pytest
+.pytest_cache/
+
+# coverage
+.coverage
+htmlcov/
+
+# Other
+*.bak
+*.swp
